@@ -21,8 +21,6 @@ typedef NS_ENUM(NSInteger, XZButtonType){
 
 初始化方法：
 
-1.
-
 ```objective-c
 XZButton *button = [[XZButton alloc] initWithFrame:CGRectMake(X, Y, WIDTH, HEIGHT) withType:XZButtonTypePicBottom andMargin:SAFEMARGIN];
 ```
