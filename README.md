@@ -8,12 +8,16 @@ XZButton
 2. textMargin： 图片与文字的间距
 
 type是个枚举：
-typedef NS_ENUM(NSInteger, XZButtonType){
+
     XZButtonTypeNormal, // 图左文右
+    
     XZButtonTypePicRight,// 图右文左
+    
     XZButtonTypePicTop,// 图上文下
+    
     XZButtonTypePicBottom,// 图下文上
-};
+    
+
 
 初始化方法：
 
