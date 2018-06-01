@@ -15,6 +15,12 @@
 		954BDD8020C0EB000026B67E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDD7F20C0EB000026B67E /* main.m */; };
 		954BDD8A20C0EB000026B67E /* UIButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDD8920C0EB000026B67E /* UIButtonDemoTests.m */; };
 		954BDD9520C0EB000026B67E /* UIButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDD9420C0EB000026B67E /* UIButtonDemoUITests.m */; };
+		954BDDA420C0EB170026B67E /* XZButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDDA320C0EB170026B67E /* XZButton.m */; };
+		954BDDA920C126470026B67E /* sina_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 954BDDA520C126470026B67E /* sina_gray@2x.png */; };
+		954BDDAA20C126470026B67E /* qq_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 954BDDA620C126470026B67E /* qq_gray@2x.png */; };
+		954BDDAB20C126470026B67E /* qq_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 954BDDA720C126470026B67E /* qq_gray@3x.png */; };
+		954BDDAC20C126470026B67E /* sina_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 954BDDA820C126470026B67E /* sina_gray@3x.png */; };
+		A678DC07B99ACC76B70692D2 /* libPods-UIButtonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1121D213B1464332D9A11D /* libPods-UIButtonDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E1121D213B1464332D9A11D /* libPods-UIButtonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIButtonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1E70A8A29B204A0958AC63 /* Pods-UIButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIButtonDemo/Pods-UIButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		662086DECA61D024752BD924 /* Pods-UIButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIButtonDemo/Pods-UIButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		954BDD6D20C0EAFE0026B67E /* UIButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		954BDD7020C0EAFE0026B67E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		954BDD7120C0EAFE0026B67E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,12 @@
 		954BDD9020C0EB000026B67E /* UIButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		954BDD9420C0EB000026B67E /* UIButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonDemoUITests.m; sourceTree = "<group>"; };
 		954BDD9620C0EB000026B67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954BDDA220C0EB170026B67E /* XZButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZButton.h; sourceTree = "<group>"; };
+		954BDDA320C0EB170026B67E /* XZButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZButton.m; sourceTree = "<group>"; };
+		954BDDA520C126470026B67E /* sina_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sina_gray@2x.png"; sourceTree = "<group>"; };
+		954BDDA620C126470026B67E /* qq_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qq_gray@2x.png"; sourceTree = "<group>"; };
+		954BDDA720C126470026B67E /* qq_gray@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qq_gray@3x.png"; sourceTree = "<group>"; };
+		954BDDA820C126470026B67E /* sina_gray@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sina_gray@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A678DC07B99ACC76B70692D2 /* libPods-UIButtonDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +94,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0777109AC75665A4D446A806 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E1121D213B1464332D9A11D /* libPods-UIButtonDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1310B6118B26AB698A53A624 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				662086DECA61D024752BD924 /* Pods-UIButtonDemo.debug.xcconfig */,
+				4D1E70A8A29B204A0958AC63 /* Pods-UIButtonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		954BDD6420C0EAFE0026B67E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +118,8 @@
 				954BDD8820C0EB000026B67E /* UIButtonDemoTests */,
 				954BDD9320C0EB000026B67E /* UIButtonDemoUITests */,
 				954BDD6E20C0EAFE0026B67E /* Products */,
+				1310B6118B26AB698A53A624 /* Pods */,
+				0777109AC75665A4D446A806 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +140,17 @@
 				954BDD7120C0EAFE0026B67E /* AppDelegate.m */,
 				954BDD7320C0EAFE0026B67E /* ViewController.h */,
 				954BDD7420C0EAFE0026B67E /* ViewController.m */,
+				954BDDA220C0EB170026B67E /* XZButton.h */,
+				954BDDA320C0EB170026B67E /* XZButton.m */,
 				954BDD7620C0EAFE0026B67E /* Main.storyboard */,
 				954BDD7920C0EB000026B67E /* Assets.xcassets */,
 				954BDD7B20C0EB000026B67E /* LaunchScreen.storyboard */,
 				954BDD7E20C0EB000026B67E /* Info.plist */,
 				954BDD7F20C0EB000026B67E /* main.m */,
+				954BDDA620C126470026B67E /* qq_gray@2x.png */,
+				954BDDA720C126470026B67E /* qq_gray@3x.png */,
+				954BDDA520C126470026B67E /* sina_gray@2x.png */,
+				954BDDA820C126470026B67E /* sina_gray@3x.png */,
 			);
 			path = UIButtonDemo;
 			sourceTree = "<group>";
@@ -139,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 954BDD9920C0EB000026B67E /* Build configuration list for PBXNativeTarget "UIButtonDemo" */;
 			buildPhases = (
+				023640A9561A0C91F9B3FF32 /* [CP] Check Pods Manifest.lock */,
 				954BDD6920C0EAFE0026B67E /* Sources */,
 				954BDD6A20C0EAFE0026B67E /* Frameworks */,
 				954BDD6B20C0EAFE0026B67E /* Resources */,
+				DB4962CF924FA3D61AA9322D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,8 +278,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				954BDDAC20C126470026B67E /* sina_gray@3x.png in Resources */,
+				954BDDAA20C126470026B67E /* qq_gray@2x.png in Resources */,
 				954BDD7D20C0EB000026B67E /* LaunchScreen.storyboard in Resources */,
+				954BDDAB20C126470026B67E /* qq_gray@3x.png in Resources */,
 				954BDD7A20C0EB000026B67E /* Assets.xcassets in Resources */,
+				954BDDA920C126470026B67E /* sina_gray@2x.png in Resources */,
 				954BDD7820C0EAFE0026B67E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +304,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		023640A9561A0C91F9B3FF32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIButtonDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB4962CF924FA3D61AA9322D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UIButtonDemo/Pods-UIButtonDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIButtonDemo/Pods-UIButtonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		954BDD6920C0EAFE0026B67E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +351,7 @@
 				954BDD7520C0EAFE0026B67E /* ViewController.m in Sources */,
 				954BDD8020C0EB000026B67E /* main.m in Sources */,
 				954BDD7220C0EAFE0026B67E /* AppDelegate.m in Sources */,
+				954BDDA420C0EB170026B67E /* XZButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +518,7 @@
 		};
 		954BDD9A20C0EB000026B67E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662086DECA61D024752BD924 /* Pods-UIButtonDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +536,7 @@
 		};
 		954BDD9B20C0EB000026B67E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D1E70A8A29B204A0958AC63 /* Pods-UIButtonDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
